@@ -264,6 +264,8 @@ includedPermissions:
 - logging.views.get
 - logging.views.list
 - resourcemanager.projects.get
+- resourcemanager.projects.getIamPolicy
+- resourcemanager.projects.setIamPolicy
 - servicemanagement.services.get  
 - servicemanagement.services.list 
 - serviceusage.quotas.get
