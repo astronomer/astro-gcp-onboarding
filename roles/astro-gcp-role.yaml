@@ -7,6 +7,7 @@ includedPermissions:
 - cloudkms.keyRings.create
 - cloudkms.keyRings.setIamPolicy
 - cloudsql.instances.create
+- cloudsql.instances.update
 - cloudsql.instances.delete
 - cloudsql.instances.get
 - cloudsql.users.create
