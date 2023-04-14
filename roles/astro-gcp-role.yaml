@@ -265,6 +265,9 @@ includedPermissions:
 - logging.usage.get
 - logging.views.get
 - logging.views.list
+- orgpolicy.constraints.list
+- orgpolicy.policies.list
+- orgpolicy.policy.get
 - resourcemanager.projects.get
 - servicemanagement.services.get  
 - servicemanagement.services.list 
