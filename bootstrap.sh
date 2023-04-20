@@ -9,6 +9,7 @@ gcloud auth login
 echo
 echo "Login successful, bootstrapping project."
 echo
+gcloud services enable storage.googleapis.com
 gcloud services enable storage-component.googleapis.com
 gcloud services enable storage-api.googleapis.com
 gcloud services enable compute.googleapis.com
@@ -19,6 +20,7 @@ gcloud services enable cloudkms.googleapis.com
 gcloud services enable sqladmin.googleapis.com
 gcloud services enable servicenetworking.googleapis.com
 gcloud services enable dns.googleapis.com
+gcloud services enable servicedirectory.googleapis.com
 curl --silent \
 https://storage.googleapis.com/storage/v1/projects/$GOOGLE_CLOUD_PROJECT/serviceAccount \
 --header "Authorization: Bearer `gcloud auth print-access-token`"   \
