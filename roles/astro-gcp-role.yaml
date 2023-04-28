@@ -37,6 +37,8 @@ includedPermissions:
 - compute.globalForwardingRules.pscSetLabels
 - compute.globalForwardingRules.setLabels
 - compute.globalOperations.get
+- compute.instances.delete
+- compute.instances.list
 - compute.networks.addPeering
 - compute.networks.create
 - compute.networks.delete
