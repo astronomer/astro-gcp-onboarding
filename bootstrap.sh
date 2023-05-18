@@ -5,7 +5,7 @@ if [[ -z $GOOGLE_CLOUD_PROJECT ]]; then
     exit 1
 fi
 
-gcloud auth login
+gcloud auth login --project $GOOGLE_CLOUD_PROJECT
 echo
 echo "Login successful, bootstrapping project."
 echo
