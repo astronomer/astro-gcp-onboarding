@@ -52,6 +52,7 @@ includedPermissions:
 - compute.routers.create
 - compute.routers.delete
 - compute.routers.get
+- compute.routers.update
 - compute.subnetworks.create
 - compute.subnetworks.delete
 - compute.subnetworks.get
