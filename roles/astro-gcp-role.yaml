@@ -37,6 +37,9 @@ includedPermissions:
 - compute.globalForwardingRules.pscSetLabels
 - compute.globalForwardingRules.setLabels
 - compute.globalOperations.get
+- compute.instances.list
+- compute.instances.delete
+- compute.instances.get
 - compute.networks.addPeering
 - compute.networks.create
 - compute.networks.delete
@@ -145,6 +148,7 @@ includedPermissions:
 - container.namespaces.list
 - container.namespaces.update
 - container.namespaces.updateStatus
+- container.networkPolicies.get
 - container.operations.get
 - container.podSecurityPolicies.create
 - container.podSecurityPolicies.delete
@@ -268,8 +272,13 @@ includedPermissions:
 - orgpolicy.constraints.list
 - orgpolicy.policies.list
 - orgpolicy.policy.get
+- resourcemanager.projects.delete
 - resourcemanager.projects.get
-- servicemanagement.services.get  
+- resourcemanager.projects.getIamPolicy
+- resourcemanager.projects.setIamPolicy
+- servicemanagement.services.create
+- servicemanagement.services.delete
+- servicemanagement.services.get
 - servicemanagement.services.list 
 - serviceusage.quotas.get
 - serviceusage.services.get
@@ -286,4 +295,3 @@ includedPermissions:
 - storagetransfer.jobs.list
 - storagetransfer.jobs.run
 - storagetransfer.jobs.update
-- resourcemanager.projects.getIamPolicy
